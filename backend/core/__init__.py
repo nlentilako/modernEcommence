@@ -1,0 +1,1 @@
+"""Core package for the Smart E-Commerce platform."""
