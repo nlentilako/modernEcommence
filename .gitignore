@@ -1,36 +1,36 @@
 ```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+target/
+
 # Dependencies
-node_modules/
-
-# Build outputs
-dist/
+.m2/
+.gradle/
 build/
-*.bundle.js
-*.bundle.css
 
-# Environment variables
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# OS files
+# Java-specific
+*.jar
+*.war
+*.ear
 .DS_Store
 Thumbs.db
-
-# TypeScript/JavaScript
-*.tsbuildinfo
-coverage/
-.nyc_output/
-
-# Temporary files
-*.tmp
 ```
